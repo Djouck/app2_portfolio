@@ -11,7 +11,12 @@ with col2:
     st.title("Giulia Ruffini")
     content = """
     Hi! I am Giulia! I am a Mathematician and I am a PhD student in Computer Science. My research cover process mining
-    topic. And I am learning Python. \n With the Portfolio web app I would like to keep trace of my progress in using 
-    Python.\n See you on these screens!
+    topic. And I am learning Python. \n With the Portfolio web app I would like to keep trace of my progress in this
+    beautiful programming language.\n See you on these screens!
     """
     st.info(content)
+
+content_two = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content_two)
