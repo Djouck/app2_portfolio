@@ -12,7 +12,8 @@ Subject: New email from {user_email}
 From: {user_email}
 {raw_message}
 """
-    button = st.form_submit_button()
+    button = st.form_submit_button(clear_on_submit=True)
     if button:
         send_email(message)
+
         st.info("Your email was sent successfully!")
